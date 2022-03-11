@@ -22,6 +22,7 @@ public class HomePage extends TestBase {
 	public void navigateToLogin() {
 		myAcct.click();
 		loginLink.click();
+		System.out.println("Changed");
 	}
 	
 	
