@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import base.TestBase;
+import io.opentelemetry.exporter.logging.SystemOutLogExporter;
 
 public class HomePage extends TestBase {
 	
@@ -23,6 +24,7 @@ public class HomePage extends TestBase {
 		myAcct.click();
 		loginLink.click();
 		System.out.println("Changed");
+		System.out.println("New changes");
 	}
 	
 	
